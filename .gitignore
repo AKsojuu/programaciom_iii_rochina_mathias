@@ -1,0 +1,153 @@
+# ===========================
+# Dependencias
+# ===========================
+node_modules/
+**/node_modules/
+jspm_packages/
+bower_components/
+
+# ===========================
+# Builds / salidas compiladas
+# ===========================
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+.next/
+**/.next/
+.nuxt/
+.output/
+.vite/
+.cache/
+.parcel-cache/
+.turbo/
+.swc/
+*.tsbuildinfo
+
+# ===========================
+# Variables de entorno
+# ===========================
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# ===========================
+# Logs
+# ===========================
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===========================
+# Testing / cobertura
+# ===========================
+coverage/
+**/coverage/
+.nyc_output/
+*.lcov
+junit.xml
+
+# ===========================
+# Gestores de paquetes
+# (descomenta el lock que NO uses)
+# ===========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.pnp.*
+.eslintcache
+.stylelintcache
+*.tgz
+
+# ===========================
+# Runtime / procesos
+# ===========================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================
+# NestJS / TypeScript
+# ===========================
+/dist
+/tmp
+*.js.map
+*.d.ts.map
+typings/
+
+# ===========================
+# React (CRA / Vite)
+# ===========================
+/build
+/.pnp
+.pnp.js
+.vercel
+.netlify
+
+# ===========================
+# Base de datos local / uploads
+# ===========================
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+**/uploads/
+
+# ===========================
+# Docker local
+# ===========================
+docker-compose.override.yml
+
+# ===========================
+# Editores / IDE
+# ===========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.history/
+
+# ===========================
+# Sistema operativo
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===========================
+# Temporales
+# ===========================
+tmp/
+temp/
+**/tmp/
+**/temp/
+*.tmp
+*.bak
