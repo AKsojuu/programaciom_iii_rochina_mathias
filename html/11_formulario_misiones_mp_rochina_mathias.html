@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Registro de cursos</title>
+</head>
+<body>
+    <header>
+        <h1>Centro de Cursos Virtuales</h1>
+        <p>Registro de cursos E-learning</p>
+    </header>
+    <hr>
+    <main>
+        <form action="#"
+              method="get"
+              id="registro-cursos">
+            <fieldset>
+                <legend>Información del curso</legend>
+                <label for="codigo">
+                    Código del curso:
+                </label>
+                <input type="text"
+                       id="codigo"
+                       name="codigo"
+                       placeholder="CUR-001"
+                       maxlength="10"
+                       required>
+                <br><br>
+                <label for="responsable">
+                    Docente responsable:
+                </label>
+                <select id="responsable"
+                        name="responsable"
+                        required>
+                    <option value="">
+                        Selecciona un docente
+                    </option>
+                    <option value="carlos">
+                        Carlos Pérez
+                    </option>
+                    <option value="maria">
+                        María Gómez
+                    </option>
+                    <option value="juan">
+                        Juan Torres
+                    </option>
+                </select>
+                <br><br>
+                <label for="plataforma">
+                    Plataforma del curso:
+                </label>
+                <input type="text"
+                       id="plataforma"
+                       name="plataforma"
+                       placeholder="Ej. Moodle"
+                       required>
+                <br><br>
+                <label for="fecha">
+                    Fecha de inicio:
+                </label>
+                <input type="date"
+                       id="fecha"
+                       name="fecha"
+                       required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Características</legend>
+                <p>Modalidad del curso:</p>
+                <input type="radio"
+                       id="asincronica"
+                       name="modalidad"
+                       value="asincronica"
+                       required>
+                <label for="asincronica">Asincrónica</label>
+                <input type="radio"
+                       id="sincronica"
+                       name="modalidad"
+                       value="sincronica">
+                <label for="sincronica">Sincrónica</label>
+                <input type="radio"
+                       id="mixta"
+                       name="modalidad"
+                       value="mixta">
+                <label for="mixta">Mixta</label>
+                <br><br>
+                <label for="dificultad">
+                    Nivel de dificultad (1 a 10):
+                </label>
+                <input type="number"
+                       id="dificultad"
+                       name="dificultad"
+                       min="1"
+                       max="10"
+                       value="5">
+                <p>Recursos necesarios:</p>
+                <input type="checkbox"
+                       id="computadora"
+                       name="recursos"
+                       value="computadora">
+                <label for="computadora">
+                    Computadora
+                </label>
+                <br>
+                <input type="checkbox"
+                       id="internet"
+                       name="recursos"
+                       value="internet">
+                <label for="internet">
+                    Conexión a internet
+                </label>
+                <br>
+                <input type="checkbox"
+                       id="audifonos"
+                       name="recursos"
+                       value="audifonos">
+                <label for="audifonos">
+                    Audífonos y micrófono
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Descripción del curso</legend>
+                <label for="descripcion">
+                    Objetivo principal:
+                </label>
+                <br>
+                <textarea id="descripcion"
+                          name="descripcion"
+                          rows="5"
+                          cols="45"
+                          maxlength="500"
+                          placeholder="Describe el curso..."
+                          required></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">
+                Registrar curso
+            </button>
+            <button type="reset">
+                Limpiar datos
+            </button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            <small>
+                Centro de Cursos Virtuales - 2026
+            </small>
+        </p>
+    </footer>
+
+</body>
+</html>
