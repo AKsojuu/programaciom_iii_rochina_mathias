@@ -7,12 +7,107 @@
 </head>
 <body>
     <form action="/registro" method="post">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre">
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" name="apellido">
-        <button type="submit" >Enviar</button>
-    </form>
-    
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre</label></td>
+                <td><input type="text" id="nombre" name="nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="apellido">Apellido</label></td>
+                <td><input type="text" id="apellido" name="apellido"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="password_confirm">Confirmar Password</label></td>
+                <td><input type="password" id="password_confirm" name="password_confirm"></td>
+            </tr>
+            <tr>
+                <td><label for="edad">Edad</label></td>
+                <td><input type="number" id="edad" name="edad"></td>
+                <td><label for="nivel">Nivel de fuerza</label></td>
+                <td><input 
+                    type="number" 
+                    id="nivel" 
+                    name="nivel" 
+                    min="10" 
+                    max="100"
+                    value="50"
+                    step="5"
+                ></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Selecciona tu equipo:</p>
+                    <input type="radio" id="equipo1" name="equipo" value="equipo1">
+                    <label for="equipo1">Equipo 1</label><br>
+                    <input type="radio" id="equipo2" name="equipo" value="equipo2">
+                    <label for="equipo2">Equipo 2</label><br>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Selecciona tus habilidades:</p>
+                    <input 
+                    type="checkbox" 
+                    id="habilidad1" 
+                    name="habilidades" 
+                    value="fuerza"
+                    >
+
+                    <label for="fuerza">Uso de la fuerza</label><br>
+                    <input 
+                    type="checkbox" 
+                    id="sable" 
+                    name="habilidades" 
+                    value="sable"
+                    >
+
+                    <label for="sable">Uso del sable</label><br>
+                    <input 
+                    type="checkbox" 
+                    id="levitar" 
+                    name="habilidades" 
+                    value="levitar"
+                    >
+
+                    <label for="levitar">Levitación</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="planeta">Planeta de origen</label></td>
+                <td><select id="planeta" name="planeta" required>
+                    <option value="">Selecciona un planeta</option>
+                    <option value="hoth">Hoth</option>
+                    <option value="endor">Endor</option>
+                    <option value="tatooine">Tatooine</option>
+                </select></td>
+
+                <td><label for="droide">Droide</label></td>
+                <td><select id="droide" name="droide" multiple size="2">
+                    <option value="">Selecciona un droide</option>
+                    <option value="r2d2">R2D2</option>
+                    <option value="c3po">C3PO</option>
+                    <option value="bb8">BB8</option>
+                </select></td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Datos Generales</legend>
+                        <label for="misiones">Misiones</label><br>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+    </form> 
+
 </body>
 </html>
