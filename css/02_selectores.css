@@ -1,6 +1,7 @@
-nav a {
-    color:rgb(195, 131, 255)
+nav a{
+    color: aquamarine;
 }
-h4,h5,h6 {
-    color:skyblue
+/* Todos tendran el mismo color debido a que estan agrupados */
+h4,h5,h6{
+    color: cornflowerblue;
 }
