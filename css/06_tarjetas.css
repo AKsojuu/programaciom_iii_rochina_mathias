@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:white ;
+}
+
+header{
+    background-color: #333;
+}
+
+h1{
+    color: purple;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Cormotant Garamond', Courier, monospace;
+}
+p{
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+
+h2{
+    color: white;
+}
+
+.tarjeta h3{
+    margin-top: 0;
+    color: chartreuse;
+}
+
+.tarjeta p{
+    margin-top: 0;
+    color: chartreuse;
+}
+
+.tarjeta{
+    width: 100px;
+    max-width: 350px;
+    min-height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px auto;
+    background-color: #444;
+    border: 3px solid yellow;
+    border-radius: 15px;
+}
+
+.Artorias{
+    border-color:blue;
+}
+
+.Guts{
+    border-color: red;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

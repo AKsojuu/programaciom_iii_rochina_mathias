@@ -1,0 +1,7 @@
+nav a{
+    color: aquamarine;
+}
+/* Todos tendran el mismo color debido a que estan agrupados */
+h4,h5,h6{
+    color: cornflowerblue;
+}
