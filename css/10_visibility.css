@@ -1,0 +1,70 @@
+.secreta{
+    visibility: secret;
+}
+
+.caja{
+    position: static;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.especial{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    background-color: green ;
+    color: white;
+}
+
+.tarjeta-relativa{
+    position: relative;
+    width: 300px;
+    background-color: red;
+    padding: 30px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.etiqueta{
+    color: white;
+    position: absolute;
+    top: 148px;
+    right: 5px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton-fijo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav a{
+    color: white;
+    margin-right: 20px;
+}
+section{
+    min-height: 450px;
+    padding: 30px;
+    border-radius: 5px;
+}
