@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portada{
+    width: 100%;
+    padding: 5vw;
+    background-color: black;
+    color: white;
+}
+.portada h1{
+    font-size: 8vw;
+    color: #FACC15;
+}
+
+.portada p{
+    font-size: 3vw;
+    color: #FACC15;
+}
+
+.bienvenida{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.historia{
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.historia h1{
+    font: 2.6rem;
+}
+
+.historia p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
