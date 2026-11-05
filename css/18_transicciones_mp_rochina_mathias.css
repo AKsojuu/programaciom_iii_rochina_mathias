@@ -1,0 +1,200 @@
+body {
+    background-color: #0b1020;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #facc15;
+}
+
+/* Botón con transición */
+
+.boton-curso {
+    padding: 15px 30px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-curso:hover {
+    background-color: #16A34A;
+}
+
+.boton-curso:focus-visible {
+    background-color: #16A34A;
+    outline: 3px solid #FACC15;
+    outline-offset: 4px;
+}
+
+/* Tarjeta con transición */
+
+.tarjeta {
+    width: 250px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: background-color, transform;
+    transition-timing-function: ease;
+}
+
+.tarjeta:hover {
+    background-color: #16A34A;
+    transform: scale(1.05);
+}
+
+.tarjeta:focus {
+    outline: 3px solid #FACC15;
+    outline-offset: 4px;
+}
+
+/* Transform: translate */
+
+.escritorio {
+    padding: 30px;
+    background-color: #172033;
+}
+
+.video {
+    width: 100px;
+    padding: 20px;
+    background-color: #2563eb;
+    transition: transform 0.5s ease;
+}
+
+.video:hover {
+    transform: translate(-10px, -50px);
+}
+
+/* Transform: rotate */
+
+.reloj {
+    padding: 30px;
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #172033;
+    border: 3px solid #22C55E;
+    border-radius: 50%;
+}
+
+.indicador {
+    color: #22C55E;
+    font-size: 100px;
+    transition: transform 1s ease;
+}
+
+.indicador:hover {
+    transform: rotate(-90deg);
+}
+
+/* Transform: varias funciones */
+
+.escritorio2 {
+    padding: 30px;
+    background-color: #172033;
+}
+
+.video2 {
+    width: 100px;
+    padding: 20px;
+    background-color: #2563eb;
+    transition: transform 0.5s ease;
+}
+
+.video2:hover {
+    transform: translateX(50px) rotate(15deg) scale(1.2);
+}
+
+/* Animaciones */
+
+.espacio {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #172033;
+    overflow: hidden;
+}
+
+.mensaje {
+    width: 100px;
+    background-color: #2563eb;
+    text-align: center;
+    animation-name: deslizar;
+    animation-duration: 3s;
+}
+
+@keyframes deslizar {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+.espacio2 {
+    width: 100%;
+    max-width: 600px;
+    min-height: 320px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background-color: #172033;
+    overflow: hidden;
+}
+
+.mensaje2 {
+    width: 100px;
+    background-color: #2563eb;
+    text-align: center;
+    animation-name: deslizar2;
+    animation-duration: 3s;
+}
+
+@keyframes deslizar2 {
+    from {
+        transform: translate(30px, 100px);
+    }
+    to {
+        transform: translate(280px, 260px);
+    }
+}
+
+.alerta {
+    width: 220px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #172033;
+    color: white;
+    text-align: center;
+    animation-name: advertencia;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+
+@keyframes advertencia {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}

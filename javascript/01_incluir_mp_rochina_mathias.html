@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JavaScript</title>
+    <script>
+        alert("¡Bienvenido al curso de E-learning!");
+        console.log('saludo desde el inicio de la página');
+    </script>
+</head>
+<body>
+    <h1>Incluir JavaScript en documento HTML</h1>
+    <h2>Modo Inline</h2>
+
+    <button onclick="alert('¡Bienvenido al aula virtual!')">
+        Mostrar mensaje
+    </button>
+
+    <input type="text"
+    oninput="console.log(this.value)"
+    placeholder="Escribe el nombre de tu curso...">
+
+    <input type="text"
+    onchange="console.log('Valor final guardado...', this.value)"
+    placeholder="Escribe y haz click fuera...">
+
+    <input type="text"
+    onfocus="console.log('Valor final guardado...', this.value)"
+    onblur="alert('¡Atención! Saliste del campo')"
+    placeholder="Haz click dentro y fuera...">
+
+    <script src="01_incluir_mp_rochina_mathias.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.plataforma {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.moodle {
+    background-color: blue;
+}
+
+.classroom {
+    background-color: red;
+}
+
+.canvas {
+    background-color: green;
+}
