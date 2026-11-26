@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+
+    <table id="plataformas" border="1">
+        <caption>Plataformas de E-learning</caption>
+        <tr>
+            <th colspan="3">PLATAFORMAS VIRTUALES</th>
+        </tr>
+        <tr>
+            <th>Plataforma</th>
+            <th>Tipo</th>
+            <th>Uso principal</th>
+        </tr>
+        <tr>
+            <td>Moodle</td>
+            <td rowspan="2">Aula virtual</td>
+            <td>Cursos y tareas</td>
+        </tr>
+        <tr>
+            <td>Google Classroom</td>
+            <td>Clases y entregas</td>
+        </tr>
+        <tr>
+            <th>Coursera</th>
+            <th>Cursos en línea</th>
+            <th>Certificados</th>
+        </tr>
+    </table>
+
+    <br>
+
+    <table id="actividades" border="1">
+        <caption>Actividades del curso</caption>
+        <thead>
+            <tr>
+                <th>Actividad</th>
+                <th>Tipo</th>
+                <th>Fecha de entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Foro de presentación</td>
+                <td>Participación</td>
+                <td>10 de enero</td>
+            </tr>
+            <tr>
+                <td>Tarea 1</td>
+                <td>Entrega de archivo</td>
+                <td>17 de enero</td>
+            </tr>
+            <tr>
+                <td>Prueba en línea</td>
+                <td>Evaluación</td>
+                <td>24 de enero</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total de actividades</th>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
