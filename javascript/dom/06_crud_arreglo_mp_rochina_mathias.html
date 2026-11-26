@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD con arreglo</title>
+    <script src="06_crud_arreglo_mp_rochina_mathias.js" defer></script>
+
+</head>
+<body>
+    <h1>REGISTRO DE ESTUDIANTES E-LEARNING</h1>
+    <h2 id="tituloFormulario">Registro de Estudiante</h2>
+    <form id="formulario">
+        <input type="text"
+          id="nombre"
+          placeholder="nombre del estudiante">
+
+        <select id="curso">
+            <option value="programacion web">Programacion Web</option>
+            <option value="ingles basico">Ingles Basico</option>
+            <option value="bases de datos">Bases de Datos</option>
+        </select>
+
+        <select id="estado">
+            <option value="activo">activo</option>
+            <option value="inactivo">inactivo</option>
+            <option value="retirado">retirado</option>
+        </select>
+
+        <button type="submit" id="guardar">Agregar</button>
+        <button type="button" id="cancelar" hidden>cancelar</button>
+    </form>
+    <h2>Estudiantes Registrados</h2>
+    <h2 id="cantidad">cantidad</h2>
+    <div id="contenedor"></div>
+</body>
+</html>
