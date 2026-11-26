@@ -1,0 +1,104 @@
+h1 {
+    color: black;
+    text-align: justify;
+    font-family: 'Cormotant Garamond';
+}
+
+.texto1{
+    color: black;
+    text-align: justify;
+    font-family: 'Cormotant Garamond';
+}
+
+.texto2{
+     color: black;
+    text-align: justify;
+    font-family: 'Cormotant Garamond';
+}
+
+.texto-30px{
+    font-size: 30px;
+}
+
+.texto-20px{
+    font-size: 20px;
+}
+
+.texto-10px{
+    font-size: 10px;
+}
+
+.aprendiz{
+    font-weight: bold;
+}
+
+.intermedio{
+    font-weight: bold;
+}
+
+.avanzado{
+    font-weight: bold;
+}
+
+.estilo_letra_normal{
+    font-style: normal;
+}
+
+.estilo_letra_italica{
+    font-style: italic;
+}
+
+.Izquierda{
+    text-align: left;
+}
+
+.Derecha{
+    text-align: right;
+}
+
+.Centrada{
+    text-align: center;
+}
+
+.Importante{
+    text-decoration: underline;
+    text-decoration-line: gold;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+.Cancelada{
+    text-decoration: line-through;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.titulo_mayuscula{
+    text-transform: uppercase;
+}
+
+.titulo_minuscula{
+    text-transform: lowercase;
+}
+
+.titulo_capitalizada{
+    text-transform: capitalize;
+}
+
+.espaciado_simple{
+    line-height: 1.5;
+}
+
+.espaciado_doble{
+    line-height: 2;
+}
+
+.espacio_letras1{
+    letter-spacing: 1px;
+}
+
+.espacio_letras2{
+    letter-spacing: 2px;
+}

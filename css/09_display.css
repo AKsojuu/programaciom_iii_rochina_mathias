@@ -1,0 +1,18 @@
+.personaje{
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.leon{
+    background-color: blue;
+}
+
+.jill{
+    background-color: red;
+}
+
+.chris{
+    background-color: green;
+}
